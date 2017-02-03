@@ -26,9 +26,8 @@
 #
 # needs_sphinx = '1.0'
 # on_rtd is whether we are on readthedocs.org, this line of code grabbed from docs.readthedocs.org
-    import sphinx_rtd_theme
-    html_theme = 'sphinx_rtd_theme'
-    html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
+   html_theme = "sphinx_rtd_theme"
+
 
 # otherwise, readthedocs.org uses their theme by default, so no need to specify it
 # Add any Sphinx extension module names here, as strings. They can be
